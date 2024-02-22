@@ -1,0 +1,80 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans';
+
+}
+.navbar-wrapper {
+display: flex;
+}
+
+.main-img {
+    position: relative;
+    width:1343px;
+    height:969px;
+
+}
+
+.header {
+position: absolute;
+width: 100%;
+padding: 20px 100px;
+display: flex;
+justify-content: space-between;
+padding-top: 16px;
+align-items: center;
+}
+
+.logo-company {
+    width:137px;
+    height:72px;
+}
+
+.header-nav a {
+font-size: 18px ;
+padding-top: 10px;
+text-align: center;
+gap: 24px;
+color: #fff;
+font-weight: 500;
+text-decoration: none;
+margin-left: 29px;
+}
+
+.navbar a:hover {
+color: #222;
+}
+
+.btn-consult {
+    background: rgb(26, 62, 62);
+    width: 157px;
+    height: 44px; 
+    padding-top: 12px;
+    padding-left: 9px;
+    border-radius: 4px;  
+    cursor: pointer;
+    text-align: center;
+    transition: 0.40s;
+    }
+    .header-consult {
+      text-decoration: none;
+      color: #fff;
+    }
+.btn-consult:hover {
+background-color:#222;
+}
+
+.title-1 {
+position: absolute;
+font-size: 50px;
+top:551px;
+left: 185px;
+font-family: 'Next Art';
+line-height: 150%;
+letter-spacing: 1px;
+    color: #fdfdfd;
+  text-align: left;
+
+}
