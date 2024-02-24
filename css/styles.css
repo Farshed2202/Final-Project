@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
 box-sizing: border-box;
 }
 
@@ -43,8 +45,8 @@ text-decoration: none;
 margin-left: 29px;
 }
 
-.navbar a:hover {
-color: #222;
+.header a:hover {
+color: rgb(242, 190, 34);
 }
 
 .btn-consult {
@@ -63,7 +65,8 @@ color: #222;
       color: #fff;
     }
 .btn-consult:hover {
-background-color:#222;
+background-color:#752c2c;
+
 }
 
 .title-1 {
@@ -77,4 +80,57 @@ letter-spacing: 1px;
     color: #fdfdfd;
   text-align: left;
 
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 0;
+  gap: 15px;
+}
+
+.about-img {
+  position: relative;
+  max-width: 480px;
+  top: 90px;
+  left: 160px;
+
+}
+
+.img-mountain {
+  position: relative;
+  Width:350px;
+  Height:400px;
+  
+}
+
+.img-home {
+  position: relative;
+        top: -202px;
+        left: 164px;
+  Width:350px;
+  Height:400px;
+}
+
+.about-title {
+  position: relative;
+  bottom: 643px;
+  padding-left: 766px;
+  
+
+}
+
+.subtitle-1 {
+font-size: 24px;
+color: rgb(242, 190, 34);
+}
+
+.subtitle-2 {
+  font-size:32px;
+color: rgb(24, 18, 30);
+}
+
+.subtitle-3 {
+font-size: 18px; 
 }
