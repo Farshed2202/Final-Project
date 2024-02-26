@@ -46,27 +46,25 @@ margin-left: 29px;
 }
 
 .header a:hover {
-color: rgb(242, 190, 34);
+color: rgb(30, 104, 30);
 }
 
-.btn-consult {
-    background: rgb(26, 62, 62);
+.header-consult {
+ background: rgb(26, 62, 62);
     width: 157px;
     height: 44px; 
     padding-top: 12px;
     padding-left: 9px;
     border-radius: 4px;  
     cursor: pointer;
+     text-decoration: none;
     text-align: center;
-    transition: 0.40s;
+    transition: 0.40s; 
     }
-    .header-consult {
-      text-decoration: none;
-      color: #fff;
-    }
-.btn-consult:hover {
-background-color:#964343cc;
 
+.header-consult:hover {
+  background-color: #f3f5f4;
+      color: #351d1d;
 }
 
 .title-1 {
@@ -168,6 +166,12 @@ img {
 .about__btn {
   width: 200px;
   height: 52px;
+  text-decoration: none;
+}
+
+.about__btn:hover {
+  background-color: #f3f5f4;
+  color: rgb(30, 104, 30);
 }
 
 .btn {
@@ -281,6 +285,12 @@ position: relative;
   .price-offer {
       width: 236px;
       height: 52px;
+      text-decoration: none;
+  }
+
+  .price-offer:hover {
+    background-color: #f3f5f4;
+    color: rgb(30, 104, 30);
   }
 
   .popular-places {
@@ -328,10 +338,11 @@ color: rgb(30, 104, 30)
 }
 
 .about-trip {
+  height: 990px;
   background: rgb(243, 245, 244);
 }
 
- .all-cards {
+ .cards-container {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -340,6 +351,10 @@ color: rgb(30, 104, 30)
  margin: 0 auto;
   padding: 0 10px;
   max-width: 1197px;
+}
+
+.trip-container {
+padding-top: 76px;
 }
 .trip-subtext {
  font-size: 24px;
@@ -350,16 +365,16 @@ text-align: center;
  position: static;
     font-size: 32px;
     text-align: center;
+    height: 76px;
 }
 
 .card-trip {
   display: flex;
-  flex: 1 1 380px;
   border-radius: 10px;
   padding: 16px;
   height: auto;
   box-shadow: 0 0 15px 0 rgba(24,18,30,.12);
-  background: #fdfdfd;
+  background: #fdfdfd; 
 
 }
 
@@ -370,7 +385,6 @@ text-align: center;
 }
 .travel-card {
   display: flex;
-   flex: 1 1 10px; 
     flex-wrap: nowrap;
   border-radius: 10px;
   padding: 16px;
@@ -391,11 +405,15 @@ text-align: center;
   font-size: 24px;
   line-height: 32px;
    color: #18121e;
-  /* text-decoration: underline 1px solid rgba(0,0,0,0);
- 
-  transition: all .1s;
-  cursor: pointer;
-  text-underline-offset: 3px; */
+   
+}
+
+.card-title:hover {
+color: rgb(26, 62, 62);
+text-decoration: underline 1px solid rgba(0,0,0,0);
+cursor: pointer;
+  text-underline-offset: 3px;
+transition: all 11s;
 }
 
 .card-text {
@@ -414,9 +432,39 @@ text-align: center;
   color: #f2be22;
 }
 
+.more-info {
+  font-weight: 700;
+  font-size: 14px;
+color: rgb(26, 62, 62);
+}
+
+.more-info:hover {
+  text-decoration: underline 1px solid rgba(0,0,0,0);
+  cursor: pointer;
+    text-underline-offset: 3px;
+  transition: all 11s;
+  }
+
 .continue-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: auto 0 16px;
+}
+
+
+.cards-btn {
+  margin: 43px auto;
+  margin-left: 453px;
+  width: 244px;
+  height: 52px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all .3s;
+  cursor: pointer;
+}
+
+.cards-btn:hover {
+background-color: #f3f5f4;
+color: rgb(30, 104, 30);
 }
