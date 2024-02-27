@@ -534,3 +534,261 @@ position: relative;
   background-color: #f3f5f4;
   color: rgb(30, 104, 30);
 }
+.container-email {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -96px;
+  border-radius: 6px;
+  padding: 40px 100px;
+  box-shadow: 0 0 15px 0 rgba(24,18,30,.12);
+  background: #fdfdfd;
+  gap: 15px;
+}
+
+.news-content {
+  flex: 0 1 380px;
+}
+
+.actual-info{
+  margin: 0 0 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  color: #f2be22;
+}
+
+.info-trip {
+  margin: 0 0 40px;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 120%;
+  color: #18121e;
+
+}
+
+.container-newsinfo {
+  margin: 0 auto;
+  padding: 0 10px;
+  max-width: 1197px;
+}
+
+.newsinfo-input {
+  border: none;
+  border-radius: 4px;
+  padding: 12px 16px;
+  width: 280px;
+  height: 44px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #18121e;
+  background: #f3f5f4;
+}
+
+.subscribe-info {
+  flex: 0 1 536px;
+}
+
+.news-subtitle {
+  margin: 0 0 8px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #18121e;
+}
+
+.news-form {
+  display: flex;
+  margin-bottom: 8px;
+  gap: 16px;
+}
+
+.newsinfo-button {
+  border-radius: 4px;
+  width: 240px;
+  height: 44px;
+}
+
+.news-terms {
+  margin: 0;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #18121e;
+}
+
+.news-terms-link {
+  color: #18121e;
+  text-decoration: underline 1px solid #18121e;
+}
+
+.footer {
+  background-color: #1a3e3e;
+}
+
+.footer__top {
+  padding: 176px 0 80px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.footer__top-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.footer__items:first-of-type {
+  max-width: 480px;
+}
+
+.footer__title {
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f3f5f4;
+}
+
+.footer__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.footer__contacts {
+  display: flex;
+  margin: 80px 0 32px;
+  gap: 24px;
+}
+
+.footer__contact {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: underline;
+  color: #fff;
+  transition: all .1s;
+}
+
+.footer__contact:hover {
+color: #f2be22;
+}
+
+
+.footer__socials {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 21px;
+  color: white;
+}
+
+.footer__social-link {
+  text-decoration: none;
+  color: White;
+}
+
+.footer__items {
+  flex: 1;
+  max-width: 280px;
+}
+
+.footer__title {
+  margin: 0 0 20px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f3f5f4;
+}
+
+.footer__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list-item {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__arrow {
+  margin-right: 10px;
+  transition: all .1s;
+}
+
+.footer__link {
+  position: relative;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+ color: #fff;
+  transition: all .1s;
+}
+
+.footer__link:hover {
+ /* -webkit-text-decoration: underline 1px solid rgba(0,0,0,0); */
+  text-decoration: underline 1px solid rgba(0,0,0,0);
+  color: #f2be22;
+}
+
+.footer__link--new::after {
+  content: "NEW";
+  margin-left: 8px;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  -webkit-text-decoration: underline 1px solid #fff;
+  text-decoration: underline 1px solid #fff;
+  text-transform: lowercase;
+  color: #1a3e3e;
+  background: #fff;
+}
+
+
+
+.footer__list-item+.footer__list-item {
+  margin-top: 16px;
+}
+
+
+.footer__bottom {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #18121e;
+}
+
+.footer__bottom-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 24px 0;
+  gap: 8px;
+}
+
+.footer__info {
+  margin: 0;
+}
+
+.footer__policy {
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+  transition: all .1s;
+  cursor: pointer;
+  color: #fff;
+}
