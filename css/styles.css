@@ -8,25 +8,33 @@ body {
   font-family: 'Nunito Sans';
 
 }
+
+.outer-container {
+position: relative;
+}
 .navbar-wrapper {
-display: flex;
+  display: flex;
+  flex-direction: column;
+  height: 940px;
+  width: 100%;
 }
 
 .main-img {
-    position: relative;
-    width:1343px;
-    height:969px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 100%;
 
 }
 
 .header {
-position: absolute;
-width: 100%;
-padding: 20px 100px;
-display: flex;
-justify-content: space-between;
-padding-top: 16px;
-align-items: center;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  align-items: center;
 }
 
 .logo-company {
@@ -68,16 +76,88 @@ color: rgb(30, 104, 30);
 }
 
 .title-1 {
-position: absolute;
 font-size: 50px;
-top:551px;
-left: 185px;
 font-family: 'Next Art';
 line-height: 150%;
 letter-spacing: 1px;
     color: #fdfdfd;
-  text-align: left;
+  text-align: center;
 
+}
+
+.start-title {
+  z-index: 1;
+margin-top: auto;
+}
+
+.start__search {
+  display: flex;
+  border-radius: 10px;
+  padding: 40px 42px;
+  background: rgba(255,255,255,.2);
+  backdrop-filter: blur(6px);
+  gap: 24px;
+}
+
+.start__label {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+}
+
+.choices[data-type*=select-one] {
+  cursor: pointer;
+}
+
+.start__span {
+  margin: 8px 0 0 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fdfdfd;
+}
+
+.start__block-date {
+  display: flex;
+  border: 1px solid #e1e3e4;
+  border-radius: 8px;
+}
+
+.start__date {
+  flex: 1;
+  border: 0;
+  padding: 0 8px;
+  height: 52px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fdfdfd;
+  background-color: rgba(0,0,0,0);
+}
+
+.start__date+.start__date {
+  margin-left: 5px;
+}
+
+.start__search-program {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fdfdfd;
+  border-radius: 4px;
+  padding: 0;
+  width: 213px;
+  height: 52px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: .192px;
+  color: #1a3e3e;
+  background: #fdfdfd;
+  transition: all .3s;
 }
 
 
@@ -636,6 +716,7 @@ position: relative;
 
 .container {
   margin: 0 auto;
+  max-width: 1180px;
 }
 
 .footer__top-wrapper {
@@ -724,6 +805,8 @@ color: #f2be22;
 
 .footer__arrow {
   margin-right: 10px;
+  width: 6px;
+  height: 10px;
   transition: all .1s;
 }
 
