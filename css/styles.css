@@ -54,7 +54,7 @@ margin-left: 29px;
 }
 
 .header a:hover {
-color: rgb(30, 104, 30);
+color: #1a3e3e;
 }
 
 .header-consult {
@@ -79,7 +79,7 @@ color: rgb(30, 104, 30);
 font-size: 50px;
 font-family: 'Next Art';
 line-height: 150%;
-letter-spacing: 1px;
+letter-spacing: 2%;
     color: #fdfdfd;
     padding-left: 60px;
 
@@ -571,18 +571,18 @@ text-align: center;
     text-align: center;
   }
 
-  .beautiful-pictures {
+.beautiful-pictures {
     position: relative;
     margin-left: 86px;
-  }
+  } 
 
-  .picture-beauty {
+.picture-beauty {
     max-width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
     width: 380px;
     height: 555px;
-  }
+  } 
 
   .popular__btn {
     margin: 30px auto;
@@ -960,6 +960,10 @@ color: #f2be22;
   text-decoration: none;
   color: White;
 }
+.footer__social-link:hover {
+color: #f2be22;
+}
+
 .footer__items {
   flex: 1;
   max-width: 280px;
