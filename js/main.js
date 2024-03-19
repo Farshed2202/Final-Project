@@ -15,6 +15,20 @@ options.forEach(option =>{
 })
 
 
+const openPopUp = document.getElementById('open_pop_up');
+const closePopUp = document.getElementById('pop_up_close');
+const popUp = document.getElementById('pop_up');
+
+openPopUp.addEventListener('click', function(e){
+e.preventDefault();
+popUp.classList.add('active');
+})
+
+closePopUp.addEventListener('click', () =>{
+popUp.classList.remove('active')
+})
+
+
 const optionMenus = document.querySelector(".select-menu-2"),
    selectButton = optionMenus.querySelector(".select-btn-2"),
    options_2 = optionMenus.querySelectorAll(".option-2"),
